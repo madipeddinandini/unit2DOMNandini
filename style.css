@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #1e3c72, #2a5298);
+  font-family: Arial, sans-serif;
+}
+
+.clock-container {
+    font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  background: #ffffff20;
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  color: white;
+  box-shadow: 0 0 10px #ff5c7a, 0 0 20px;
+}
+
+.time {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.date {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+button {
+  margin-top: 20px;
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #00c6ff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0072ff;
+}
